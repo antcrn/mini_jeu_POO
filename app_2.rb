@@ -61,7 +61,7 @@ puts "\033[35m|Le but du jeu est d'être le dernier survivant !|\033[0m"
 puts "\033[35m+-----------------------------------------------+\033[0m"
 
 
-puts "Quel est ton nom, jeune héro ?"
+puts "Quel est ton nom, jeune héros ?"
 print">"
 @human_player = HumanPlayer.new(gets.chomp)
 puts "Bonjour #{@human_player.name}"
